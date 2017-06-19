@@ -1,0 +1,45 @@
+header {
+	font-family: Palatino, "Palatino Linotype", Georgia, serif;
+	text-align: center;
+	vertical-align: middle;
+	width:80%;
+	position: absolute;
+}
+body {
+	width: 80%;
+	background: black;
+	background-image: url("spacemarinebackground.jpg") ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+main {
+	padding-top: 20px;
+}
+#links{
+	font-size: 200%;
+	position: fixed;
+	right: 10px;
+	top: 0 ;
+	background: #6b8f53;
+	padding: 10px;
+	border: 5px;
+}
+#chart{
+	background: #d5bf22;
+	margin: 2cm;
+	border-style: ridge;
+	text-align: center;
+}
+#image{
+	border-style: ridge;
+}
+
+@media screen and (max-width: 500px) {
+body{
+	width: 70%;
+	font-size: 60%;
+	}
+}
+
